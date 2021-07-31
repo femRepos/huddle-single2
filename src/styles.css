@@ -91,6 +91,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    color: hsl(0, 100%, 100%);
+    background-color: hsl(300, 69%, 71%);
+}
 
 /* FOOTER */
 
@@ -117,4 +121,9 @@ footer a {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+footer a:hover {
+    color:hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
 }
