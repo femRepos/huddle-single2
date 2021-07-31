@@ -129,6 +129,17 @@ footer a:hover {
     border-color: hsl(300, 69%, 71%);
 }
 
+/* ACCESSIBILITY */
+
+.sr-only {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+}
+
 @media only screen and (max-width: 850px) {
     /* ROOT */
     body {
